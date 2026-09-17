@@ -1,0 +1,14 @@
+# Isso é uma DSL do exercício 13 do livro "o programador pragmático" (p. 128)
+# M = início de uma mensagem
+# F = campo
+# E = fim da mensagem
+
+
+# Adiciona um produto
+# à lista do ‘pedido’
+
+M AddProduct
+F id         int
+F name       char[30]
+F order_code int
+E
